@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -17,16 +16,15 @@
   content: '';
 }
 
-.row::before,
 .row::after {
-  display: table;
-  content: '';
+  clear: both;
 }
+
 
 .col-3, .col-4, .col-6, .col-12 {
   float: left;
 
- padding-left: 1.04166666%;
+  padding-left: 1.04166666%;
   padding-right: 1.04166666%;
 }
 
@@ -45,7 +43,7 @@
 
   /* 4 columns */
   .col-4 {
-    width: 33.33%;
+    width: 33.333333%;
   }
 
   /* 6 columns */
