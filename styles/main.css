@@ -1,0 +1,44 @@
+/header {
+	background-color: orange;
+	margin-bottom: 40px;
+}
+
+body {
+	font-family: "Roberto", sans-serif;
+	color: #252525;
+}
+
+.image-card {
+	width: 100%;
+}
+
+.card {
+	border: 2px solid black;
+}
+
+.card-content {
+	padding: 15px;
+}
+
+.card-content h3{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-content p {
+	margin: 0.5em 0;
+}
+
+header p {
+  margin-top: 0.5em;
+}
+
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.banner {
+	display: block;
+	background-color: orange;
+}
